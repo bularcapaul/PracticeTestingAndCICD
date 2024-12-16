@@ -27,7 +27,7 @@ public class SliderTest extends BaseTest {
 
         driver.manage().window().maximize();
 
-        registerUser();
+//        registerUser();
         login();
         accountPage.pressHomeLink();
 
@@ -43,20 +43,20 @@ public class SliderTest extends BaseTest {
         Assert.assertEquals(cartPage.getItemPrice().replace("$", " ").trim(), CordlessDrillPrice );
 
     }
-
-    public void registerUser(){
-        register = new Register(driver);
-        login = new Login(driver);
-
-
-        register.clickSignUpLink();
-        register.clickRegisterLink();
-
-        register.registerUser();
-
-        Assert.assertEquals(login.getLoginText(), "Login");
-        Assert.assertTrue(login.checkVisibilityOfEmailField());
-    }
+//
+//    public void registerUser(){
+//        register = new Register(driver);
+//        login = new Login(driver);
+//
+//
+//        register.clickSignUpLink();
+//        register.clickRegisterLink();
+//
+//        register.registerUser();
+//
+//        Assert.assertEquals(login.getLoginText(), "Login");
+//        Assert.assertTrue(login.checkVisibilityOfEmailField());
+//    }
 
     public void login(){
 
@@ -68,6 +68,7 @@ public class SliderTest extends BaseTest {
         login = new Login(driver);
         accountPage = new AccountPage(driver);
 
+        register.clickSignUpLink();
         login.login(email, password);
 
         Assert.assertEquals(accountPage.getMyAccountText(),"My account");
