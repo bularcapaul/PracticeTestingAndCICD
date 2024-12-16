@@ -18,10 +18,66 @@
     <!--        </classes>-->
     <!--    </test>-->
 
-    <test name = "Simple Testt">
+    <test name = "Register Test">
         <classes>
-            <class name="tests.SimpleTest"/>
+            <class name="tests.RegisterTest"/>
         </classes>
     </test>
+
+    <test name = "Login Test">
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name = "Login with invalid data Test">
+        <classes>
+            <class name="tests.LoginWithInvalidDataTest"/>
+        </classes>
+    </test>
+
+    <test name = "Slider Test">
+        <classes>
+            <class name="tests.SliderTest"/>
+        </classes>
+    </test>
+
+    <test name = "Add two products in cart Test">
+        <classes>
+            <class name="tests.Add2ProductsInCartAndCheckThePrices"/>
+        </classes>
+    </test>
+
+    <test name = "Multiple Login attempts Test">
+        <classes>
+            <class name="tests.MultipleLoginAttempsWithWrongPassword"/>
+        </classes>
+    </test>
+
+    <test name = "Check total price Test">
+        <classes>
+            <class name="tests.CheckTotalPriceTest"/>
+        </classes>
+    </test>
+
+    <test name = "Change phone number Test">
+        <classes>
+            <class name="tests.ChangePhoneNumberTest"/>
+        </classes>
+    </test>
+
+    <test name = "Add product to favorite Test">
+        <classes>
+            <class name="tests.AddProductToFavoriteList"/>
+        </classes>
+    </test>
+
+    <test name = "Add in cart the cheapest hummer Test">
+        <classes>
+            <class name="tests.AddInCartTheCheapestHummer"/>
+        </classes>
+    </test>
+
+
 
 </suite>

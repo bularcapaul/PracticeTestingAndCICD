@@ -20,7 +20,7 @@ public class AddProductToFavoriteList extends BaseTest {
         favorites = new Favorites(driver);
         productsPage = new ProductsPage(driver);
 
-        registerUser();
+//        registerUser();
         login();
 
         accountPage.pressFavoritesLink();
@@ -53,19 +53,19 @@ public class AddProductToFavoriteList extends BaseTest {
     }
 
 
-    public void registerUser(){
-        register = new Register(driver);
-        login = new Login(driver);
-
-        register.clickDropMenuButton();
-        register.clickSignUpLink();
-        register.clickRegisterLink();
-
-        register.registerUser();
-
-        Assert.assertEquals(login.getLoginText(), "Login");
-        Assert.assertTrue(login.checkVisibilityOfEmailField());
-    }
+//    public void registerUser(){
+//        register = new Register(driver);
+//        login = new Login(driver);
+//
+//        register.clickDropMenuButton();
+//        register.clickSignUpLink();
+//        register.clickRegisterLink();
+//
+//        register.registerUser();
+//
+//        Assert.assertEquals(login.getLoginText(), "Login");
+//        Assert.assertTrue(login.checkVisibilityOfEmailField());
+//    }
 
     public void login(){
 
@@ -78,7 +78,7 @@ public class AddProductToFavoriteList extends BaseTest {
         login = new Login(driver);
         accountPage = new AccountPage(driver);
 
-        register.clickDropMenuButton();
+//        register.clickDropMenuButton();
         register.clickSignUpLink();
 
         login.login(email, password);

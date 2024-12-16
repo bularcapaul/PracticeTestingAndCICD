@@ -27,7 +27,7 @@ public class Add2ProductsInCartAndCheckThePrices extends BaseTest {
 
         driver.manage().window().maximize();
 
-        registerUser();
+//        registerUser();
         login();
         accountPage.pressHomeLink();
 
@@ -51,19 +51,19 @@ public class Add2ProductsInCartAndCheckThePrices extends BaseTest {
 
     }
 
-    public void registerUser(){
-        register = new Register(driver);
-        login = new Login(driver);
-
-
-        register.clickSignUpLink();
-        register.clickRegisterLink();
-
-        register.registerUser();
-
-        Assert.assertEquals(login.getLoginText(), "Login");
-        Assert.assertTrue(login.checkVisibilityOfEmailField());
-    }
+//    public void registerUser(){
+//        register = new Register(driver);
+//        login = new Login(driver);
+//
+//
+//        register.clickSignUpLink();
+//        register.clickRegisterLink();
+//
+//        register.registerUser();
+//
+//        Assert.assertEquals(login.getLoginText(), "Login");
+//        Assert.assertTrue(login.checkVisibilityOfEmailField());
+//    }
 
     public void login(){
 

@@ -25,7 +25,7 @@ public class AddInCartTheCheapestHummer extends BaseTest {
 
         driver.manage().window().maximize();
 
-        registerUser();
+//        registerUser();
         login();
         accountPage.pressHomeLink();
         productsPage.searchForAProduct(searchedProduct);
@@ -36,19 +36,19 @@ public class AddInCartTheCheapestHummer extends BaseTest {
         Assert.assertEquals(cartPage.getItemName(), "Thor Hammer ");
     }
 
-    public void registerUser(){
-        register = new Register(driver);
-        login = new Login(driver);
-
-
-        register.clickSignUpLink();
-        register.clickRegisterLink();
-
-        register.registerUser();
-
-        Assert.assertEquals(login.getLoginText(), "Login");
-        Assert.assertTrue(login.checkVisibilityOfEmailField());
-    }
+//    public void registerUser(){
+//        register = new Register(driver);
+//        login = new Login(driver);
+//
+//
+//        register.clickSignUpLink();
+//        register.clickRegisterLink();
+//
+//        register.registerUser();
+//
+//        Assert.assertEquals(login.getLoginText(), "Login");
+//        Assert.assertTrue(login.checkVisibilityOfEmailField());
+//    }
 
     public void login(){
 
