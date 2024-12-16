@@ -9,6 +9,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -29,7 +30,9 @@ public class BaseTest {
         ConfigLoader configLoader = new ConfigLoader("src/test/resources/proprietati/urls.properties");
         String homePageUrl = configLoader.getProperty("homePageUrl");
         WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("headless"); //rularea fara interfata grafica
+        driver = new ChromeDriver(options);
         screenshotUtils = new ScreenshotUtils(driver);
         driver.get(homePageUrl);
 
