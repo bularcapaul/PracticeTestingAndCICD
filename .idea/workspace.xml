@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b68306a5-379c-411c-bbcc-0c2ba4200b4f" name="Changes" comment="adding something in build.yml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CheckTotalPriceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CheckTotalPriceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SliderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SliderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/user.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/user.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -301,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734348675658</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="adding something in build.yml">
+      <option name="closed" value="true" />
+      <created>1734350982419</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1734350982419</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
