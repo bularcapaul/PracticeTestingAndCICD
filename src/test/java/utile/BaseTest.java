@@ -31,7 +31,7 @@ public class BaseTest {
         String homePageUrl = configLoader.getProperty("homePageUrl");
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
-        //options.addArguments("headless"); //rularea fara interfata grafica
+        options.addArguments("headless"); //rularea fara interfata grafica
         driver = new ChromeDriver(options);
         screenshotUtils = new ScreenshotUtils(driver);
         driver.get(homePageUrl);
