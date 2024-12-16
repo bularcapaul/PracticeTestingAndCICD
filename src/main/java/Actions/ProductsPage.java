@@ -18,7 +18,7 @@ public class ProductsPage {
 
     public ProductsPage(WebDriver driver){
         this.productsElements = new ProductsElements(driver);
-        wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         action = new Actions(driver);
     }
 
