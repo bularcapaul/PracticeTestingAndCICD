@@ -16,7 +16,7 @@ public class RegisterTest extends BaseTest {
         register = new Register(driver);
         login = new Login(driver);
 
-        register.clickDropMenuButton();
+//        register.clickDropMenuButton();
         register.clickSignUpLink();
         register.clickRegisterLink();
 
