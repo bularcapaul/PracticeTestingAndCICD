@@ -24,8 +24,8 @@ jobs:
         run: mvn install -DskipTests
 
       - name: Run Selenium Tests
-        env:
-          BROWSER: chrome
-          CHROME_DRIVER_PATH: C:\Users\EBULARPMI\IdeaProjects\webdriver_java\resources
-          TIMEOUT: 20
-        run: mvn test -Dwebdriver.chrome.driver=${{ env.CHROME_DRIVER_PATH }}
+        #env:
+          #BROWSER: chrome
+          #CHROME_DRIVER_PATH: C:\Users\EBULARPMI\IdeaProjects\webdriver_java\resources
+          #TIMEOUT: 20
+        run: mvn test #-Dwebdriver.chrome.driver=${{ env.CHROME_DRIVER_PATH }}
