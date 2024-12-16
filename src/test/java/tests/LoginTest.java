@@ -27,7 +27,7 @@ public class LoginTest extends BaseTest {
         login = new Login(driver);
         accountPage = new AccountPage(driver);
 
-        register.clickDropMenuButton();
+        //register.clickDropMenuButton();
         register.clickSignUpLink();
 
         login.login(email, password);

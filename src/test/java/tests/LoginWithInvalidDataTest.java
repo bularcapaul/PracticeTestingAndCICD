@@ -22,7 +22,7 @@ public class LoginWithInvalidDataTest extends BaseTest {
         String invalidPassword = configLoader.getProperty("invalidPassword");
 
 
-        register.clickDropMenuButton();
+        //register.clickDropMenuButton();
         register.clickSignUpLink();
         login.login(invalidEmail, invalidPassword);
 
