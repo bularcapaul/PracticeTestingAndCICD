@@ -15,7 +15,7 @@ public class CheckTotalPriceTest extends BaseTest {
     ProductsPage productsPage = null;
     CartPage cartPage = null;
 
-    @Test
+    @Test(priority = 2)
     public void checkTotalPriceTest(){
 
         productsPage = new ProductsPage(driver);
@@ -33,7 +33,7 @@ public class CheckTotalPriceTest extends BaseTest {
         login();
         accountPage.pressHomeLink();
         JavascriptExecutor jse = (JavascriptExecutor)driver;
-        jse.executeScript("window.scrollBy(0,250)");
+        jse.executeScript("window.scrollBy(0,300)");
 
         productsPage.checkMeasuresCategory();
         productsPage.pressTapeMeasure5m();

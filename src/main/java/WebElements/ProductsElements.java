@@ -74,7 +74,7 @@ public class ProductsElements {
     }
 
     public WebElement measuresCategory(){
-        return driver.findElement(By.cssSelector("[data-test='category-01JF053K8ZYE727WDTJ2PC7XW8']"));
+        return driver.findElement(By.xpath("//*[@id=\"filters\"]/fieldset[1]/div[1]/ul/fieldset/div[7]/label/input"));
     }
 
     public WebElement tapeMeasure5m(){

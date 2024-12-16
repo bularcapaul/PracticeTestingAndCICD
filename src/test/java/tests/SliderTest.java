@@ -18,7 +18,7 @@ public class SliderTest extends BaseTest {
     ProductsPage productsPage = null;
     CartPage cartPage = null;
 
-    @Test
+    @Test(priority = 3)
     public void sliderTest() throws InterruptedException {
 
         productsPage = new ProductsPage(driver);
