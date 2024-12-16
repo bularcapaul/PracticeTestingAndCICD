@@ -33,7 +33,7 @@ public class BaseTest {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("headless"); //rularea fara interfata grafica
         options.addArguments("--no-sandbox"); // Previne problemele de permisiuni
-        options.addArguments("--window-size=1920,1080"); // Dimensiuni default ale ferestrei
+        options.addArguments("start-maximized");
         driver = new ChromeDriver(options);
         screenshotUtils = new ScreenshotUtils(driver);
         driver.get(homePageUrl);

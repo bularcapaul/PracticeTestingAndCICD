@@ -18,14 +18,13 @@ public class SliderTest extends BaseTest {
     ProductsPage productsPage = null;
     CartPage cartPage = null;
 
-    @Test(priority = 3)
+    @Test()
     public void sliderTest() throws InterruptedException {
 
         productsPage = new ProductsPage(driver);
         cartPage = new CartPage(driver);
         String CordlessDrillPrice = "125.23";
 
-        driver.manage().window().maximize();
 
 //        registerUser();
         login();
