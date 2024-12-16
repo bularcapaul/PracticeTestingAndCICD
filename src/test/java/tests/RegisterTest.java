@@ -11,7 +11,7 @@ public class RegisterTest extends BaseTest {
     private Register register = null;
     private Login login = null;
 
-    @Test
+    @Test(priority = 1)
     public void registerUser(){
         register = new Register(driver);
         login = new Login(driver);
