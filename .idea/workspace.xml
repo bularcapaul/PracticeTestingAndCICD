@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b68306a5-379c-411c-bbcc-0c2ba4200b4f" name="Changes" comment="changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/user.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/user.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/SliderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SliderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utile/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utile/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +69,7 @@
     "TestNG.MultipleLoginAttempsWithInvalidData.executor": "Run",
     "TestNG.RegisterTest.executor": "Run",
     "TestNG.SimpleTest.executor": "Run",
-    "TestNG.SliderTest.executor": "Run",
+    "TestNG.SliderTest.executor": "Debug",
     "TestNG.slider.executor": "Debug",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -420,7 +423,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734357278096</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="changes">
+      <option name="closed" value="true" />
+      <created>1734357437421</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1734357437421</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -460,6 +471,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/tests/CheckTotalPriceTest.java</url>
           <line>43</line>
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/SliderTest.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
