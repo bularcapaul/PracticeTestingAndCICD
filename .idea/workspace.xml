@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b68306a5-379c-411c-bbcc-0c2ba4200b4f" name="Changes" comment="adding yml file">
+      <change beforePath="$PROJECT_DIR$/../tau-the-bowlingstar-master" beforeDir="false" afterPath="$PROJECT_DIR$/../tau-the-bowlingstar-master" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="Creating-new-phone-number-test" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;bularcapaul&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/bularcapaul/ProiectRecapitulare2.git&quot;,
+    &quot;accountId&quot;: &quot;a6d53e51-083f-436a-a47f-cc208c42d2ab&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2ppnpJVr2i7xc3V1HblGafgv6OR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Maven.ProiectRecapitulare [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.Add2ProductsInCartAndCheckThePrices.executor": "Run",
+    "TestNG.AddInCartTheCheapestHummer.executor": "Run",
+    "TestNG.AddProductToFavoriteList.executor": "Run",
+    "TestNG.C:/Users/EBULARPMI/Downloads/tau-the-bowlingstar-master/ProiectRecapitulare/src/test/resources/testRunner.xml.executor": "Run",
+    "TestNG.ChangePhoneNumberTest.executor": "Run",
+    "TestNG.CheckTotalPriceTest.executor": "Run",
+    "TestNG.LoginTest.executor": "Run",
+    "TestNG.LoginWithInvalidDataTest.executor": "Run",
+    "TestNG.MultipleLoginAttempsWithInvalidData.executor": "Run",
+    "TestNG.RegisterTest.executor": "Run",
+    "TestNG.SimpleTest.executor": "Run",
+    "TestNG.SliderTest.executor": "Run",
+    "TestNG.slider.executor": "Debug",
+    "git-widget-placeholder": "AddProductsToFavorites",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/EBULARPMI/Downloads/tau-the-bowlingstar-master/ProiectRecapitulare/src/main/java/testautomationu/Main.java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\EBULARPMI\Downloads\tau-the-bowlingstar-master\ProiectRecapitulare\src\main\java\resources" />
+      <recent name="C:\Users\EBULARPMI\Downloads\tau-the-bowlingstar-master\ProiectRecapitulare\src\test\java" />
+      <recent name="C:\Users\EBULARPMI\Downloads\tau-the-bowlingstar-master\ProiectRecapitulare\src\test" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="utile" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b68306a5-379c-411c-bbcc-0c2ba4200b4f" name="Changes" comment="" />
+      <created>1733472067876</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733472067876</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Adding the register test">
+      <option name="closed" value="true" />
+      <created>1733742914853</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733742914853</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding a login test">
+      <option name="closed" value="true" />
+      <created>1733753420207</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733753420208</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding a login test">
+      <option name="closed" value="true" />
+      <created>1733754906047</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733754906047</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adding a login test">
+      <option name="closed" value="true" />
+      <created>1733757611962</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733757611962</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adding changing the phone number test">
+      <option name="closed" value="true" />
+      <created>1733833127406</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733833127406</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adding add products to favorites test">
+      <option name="closed" value="true" />
+      <created>1733920001072</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733920001072</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Adding the cheapest hammer test">
+      <option name="closed" value="true" />
+      <created>1733928393944</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733928393945</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Adding the cheapest hammer test">
+      <option name="closed" value="true" />
+      <created>1733928632391</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733928632391</updated>
+    </task>
+    <task id="LOCAL-00009" summary="slider test">
+      <option name="closed" value="true" />
+      <created>1734079469462</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1734079469463</updated>
+    </task>
+    <task id="LOCAL-00010" summary="getPriceFromTable test">
+      <option name="closed" value="true" />
+      <created>1734095729787</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1734095729789</updated>
+    </task>
+    <task id="LOCAL-00011" summary="check total price test">
+      <option name="closed" value="true" />
+      <created>1734101932808</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1734101932808</updated>
+    </task>
+    <task id="LOCAL-00012" summary="check total price test">
+      <option name="closed" value="true" />
+      <created>1734342200970</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1734342200970</updated>
+    </task>
+    <task id="LOCAL-00013" summary="check total price test">
+      <option name="closed" value="true" />
+      <created>1734343953692</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1734343953692</updated>
+    </task>
+    <task id="LOCAL-00014" summary="check total price test">
+      <option name="closed" value="true" />
+      <created>1734344057217</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1734344057217</updated>
+    </task>
+    <task id="LOCAL-00015" summary="adding yml file">
+      <option name="closed" value="true" />
+      <created>1734344119979</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1734344119979</updated>
+    </task>
+    <task id="LOCAL-00016" summary="adding yml file">
+      <option name="closed" value="true" />
+      <created>1734344360784</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1734344360784</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding the register test" />
+    <MESSAGE value="Adding a login test" />
+    <MESSAGE value="Adding changing the phone number test" />
+    <MESSAGE value="Adding add products to favorites test" />
+    <MESSAGE value="Adding the cheapest hammer test" />
+    <MESSAGE value="slider test" />
+    <MESSAGE value="getPriceFromTable test" />
+    <MESSAGE value="check total price test" />
+    <MESSAGE value="adding yml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding yml file" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/testautomationu/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/AddInCartTheCheapestHummer.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/slider.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="By.xpath(&quot;//h3[text()='Login']&quot;" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
