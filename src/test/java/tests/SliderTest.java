@@ -35,7 +35,7 @@ public class SliderTest extends BaseTest {
         productsPage.moveRightSlider(69, 0);
         productsPage.moveLeftSlider(171, 0);
 
-
+        Thread.sleep(1000);
         productsPage.pressCordlessDrillProduct();
         productsPage.pressAddToCartButton();
         productsPage.pressToCartButton();
