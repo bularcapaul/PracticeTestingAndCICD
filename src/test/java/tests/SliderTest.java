@@ -32,10 +32,11 @@ public class SliderTest extends BaseTest {
 
         //274px(width of slidebar)/199 steps = 1.38 step  -> 1.38 step x 75 steps = offset
         productsPage.moveRightSlider(69, 0);
-        productsPage.moveLeftSlider(171, 0);
+        productsPage.moveLeftSlider(165, 0);
 
         Thread.sleep(5000);
         productsPage.pressCordlessDrillProduct();
+        Thread.sleep(5000);
         productsPage.pressAddToCartButton();
         productsPage.pressToCartButton();
 
