@@ -28,7 +28,7 @@ public class AddProductToFavoriteList extends BaseTest {
                 "In order to add favorites, please go to the product listing and mark some products as your favorite.");
 
 
-        register.clickDropMenuButton();
+//        register.clickDropMenuButton();
         accountPage.pressHomeLink();
         productsPage.pressOnCombinationPliersProduct();
         productsPage.pressAddToFavoritesButton();
@@ -37,7 +37,7 @@ public class AddProductToFavoriteList extends BaseTest {
         productsPage.pressOnBoltCuttersProduct();
         Thread.sleep(2000);
         productsPage.pressAddToFavoritesButton();
-        productsPage.pressDropMenuButton();
+//        productsPage.pressDropMenuButton();
 
 
         accountPage.pressToMyProfileLink();

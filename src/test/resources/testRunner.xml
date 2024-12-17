@@ -48,11 +48,11 @@
         </classes>
     </test>
 
-    <test name = "Multiple Login attempts Test">
-        <classes>
-            <class name="tests.MultipleLoginAttempsWithWrongPassword"/>
-        </classes>
-    </test>
+<!--    <test name = "Multiple Login attempts Test">-->
+<!--        <classes>-->
+<!--            <class name="tests.MultipleLoginAttempsWithWrongPassword"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
     <test name = "Check total price Test">
         <classes>

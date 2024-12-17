@@ -60,6 +60,7 @@ public class AddInCartTheCheapestHummer extends BaseTest {
         login = new Login(driver);
         accountPage = new AccountPage(driver);
 
+        register.clickSignUpLink();
         login.login(email, password);
 
         Assert.assertEquals(accountPage.getMyAccountText(),"My account");
